@@ -4,11 +4,15 @@
  * and open the template in the editor.
  */
 package com.mycompany.gestion;
-
+import com.mycompany.gestion.forms.Formulario;
 /**
  *
- * @author Pc
+ * @author gabriel
  */
 public class Main {
     
+    public static void main(String[] args) {
+        Formulario ventana = new Formulario();
+        ventana.show();
+    }
 }
